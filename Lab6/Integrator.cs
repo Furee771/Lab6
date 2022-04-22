@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab6
 {
-    internal class Integrator
+    public abstract class Integrator
     {
+        public abstract double Integrate(double x1, double x2);
     }
 }

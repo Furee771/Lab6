@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab6
 {
-    internal class Equation
+    public abstract class Equation
     {
+        public abstract double GetValue(double x);
     }
 }
